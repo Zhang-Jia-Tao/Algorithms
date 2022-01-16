@@ -6,12 +6,14 @@ import edu.princeton.cs.algs4.StdRandom;
 
 import java.awt.*;
 
+//1.2.1 编写一个Point2D的用例，从命令行接受一个整数N。在单位正方形中生成N个随机点，然后计算两点之间的最近距离
 public class Ex1_2_1 {
     public static void main(String[] args) {
         double min = 1/0.00000000001;   //无穷大
         int N = Integer.parseInt(args[0]);
         Point2D[] points = new Point2D[N];
 
+        //设置x，y的范围
         StdDraw.setXscale(0,1);
         StdDraw.setYscale(0,1);
 

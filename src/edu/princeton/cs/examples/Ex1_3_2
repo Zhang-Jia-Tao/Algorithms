@@ -1,0 +1,4 @@
+input :
+    it was - the best - of times - - - it was - thr - -
+output:
+    was	best	times	of	the	was	thr	it
