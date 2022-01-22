@@ -18,6 +18,15 @@ public class SortCompare {
         return timer.elapseTime();
     }
 
+    public static double time(String alg,Integer[] a){
+        Stopwatch timer = new Stopwatch();
+        if(alg.equals("Insertion"))
+            Insertion.sort(a);
+        if(alg.equals("Selection"))
+            Selection.sort(a);
+        return timer.elapseTime();
+    }
+
     public static double timeRandonmInput(String alg,int N,int T){
         //使用算法alg将T个长度为N的数组排序
         double total = 0.0;

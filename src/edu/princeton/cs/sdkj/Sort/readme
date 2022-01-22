@@ -1,0 +1,49 @@
+尚硅谷 排序算法
+    排序分为内部排序和外部排序
+        内部排序：指将需要处理的数据都加载到内部存储器中进行排序
+        外部排序：数据量过大，无法全部加载到内存中，需要借助外部存储进行排序
+
+
+
+常见的时间复杂度
+    O(1)
+        int i = 10;
+        i++;
+        System.out.println(i);
+
+    O(lgN)
+        int i=0;
+        while(i<n){
+            i = i*2;
+        }
+
+    O(N)
+        while(i<n){
+            i++;
+        }
+
+    O(NlgN)
+        int i = 0;
+        int j = 0;
+        while(i<n){
+            i++;
+            while(j<n){
+                j = j*2;
+            }
+        }
+
+    O(N*N)
+        for(int i=0;i<n;i++){
+            for(int j=0;j<n;j++){
+                ...
+            }
+        }
+
+    O(N*N*N)
+        for(int i=0;i<n;i++){
+            for(int j=0;j<n;j++){
+                for(int k=0;k<n;k++){
+                    ...
+                }
+            }
+        }
