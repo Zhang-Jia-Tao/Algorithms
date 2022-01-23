@@ -42,6 +42,7 @@ public class Bubble {
                 break;
             } else {
                 flag = false;
+
             }
 
         }
