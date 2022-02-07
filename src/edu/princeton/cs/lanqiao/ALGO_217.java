@@ -22,7 +22,7 @@ public class ALGO_217 {
     }
 
     public static void sort(){  //使用插入排序
-        for(int i=0;i<N;i++){
+        for(int i=0;i<10;i++){
             int min = i;
 
         }
