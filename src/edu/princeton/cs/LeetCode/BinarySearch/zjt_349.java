@@ -1,7 +1,8 @@
-package edu.princeton.cs.LeetCode;
+package edu.princeton.cs.LeetCode.BinarySearch;
 
-import java.util.*;
-import java.util.stream.StreamSupport;
+import java.util.Arrays;
+import java.util.HashSet;
+import java.util.Set;
 
 //两个数组的交集
 //利用的是二分查找

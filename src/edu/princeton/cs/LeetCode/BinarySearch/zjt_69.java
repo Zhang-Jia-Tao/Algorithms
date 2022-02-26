@@ -1,4 +1,4 @@
-package edu.princeton.cs.LeetCode;
+package edu.princeton.cs.LeetCode.BinarySearch;
 
 import java.util.Scanner;
 
