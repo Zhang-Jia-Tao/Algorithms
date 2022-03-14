@@ -4,6 +4,7 @@ import java.util.LinkedList;
 import java.util.Queue;
 
 //对称二叉树
+//通过了134
 public class zjt_101 {
     public static void main(String[] args) {
 
